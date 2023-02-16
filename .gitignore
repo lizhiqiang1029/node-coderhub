@@ -1,3 +1,15 @@
+# dotenv environment variables file
 .env
+.env.test
+
+# Dependency directories
 node_modules/
-package-lock.json
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# package-lock.json
+
+# uploads files
+uploads/
