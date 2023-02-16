@@ -18,7 +18,7 @@ class AuthController{
       })    
     })
     let token = await promise;
-    ctx.body = {id, name, token}
+    ctx.body = {id, name, token, msg: '登录成功'}
   }
 
   async success(ctx, next){
